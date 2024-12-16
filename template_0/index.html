@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Car Rental Web</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">
+            <img src="img/logo1.png" alt="Car Rental Logo" class="logo-black">
+            <span>Car Rental</span>
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line" aria-label="Menu"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#deals">Rental Deals</a></li>
+        <li><a href="#choose">Why Choose Us</a></li>
+        <li><a href="#client">Testimonials</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+      <div class="nav_btns">
+        <button class="btn">Register</button>
+      </div>
+    </nav>
+    <div class="header__container" id="home">
+      <div class="im">
+        <img src="img/car1.png" alt="">
+      </div>
+      <h2>🔥 100% Trusted Car Rental Platform In Pakistan</h2>
+      <h1>FAST AND EASY WAY TO RENT A CAR</h1>
+    </div>
+  </header>
+  <!-- Tabs -->
+<div class="tabs">
+  <button class="tab active" data-company="toyota">Toyota</button>
+  <button class="tab" data-company="tesla">Tesla</button>
+  <button class="tab" data-company="mazda">Mazda</button>
+  <button class="tab" data-company="mitsubishi">Mitsubishi</button>
+  <button class="tab" data-company="honda">Honda</button>
+</div>
+
+<!-- Car Containers -->
+<div class="car-wrapper">
+  <!-- Toyota Cars -->
+  <div class="car-container" data-company="toyota">
+    <div class="car-card">
+      <img src="img/corolla.jpeg" alt="Corolla" class="car-image">
+      <h3>Corolla</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (250)</p>
+      <p class="price">$180/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/innova.jpeg" alt="Innova" class="car-image">
+      <h3>Innova</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (550)</p>
+      <p class="price">$150/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/camry.jpeg" alt="Camry" class="car-image">
+      <h3>Camry</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (400)</p>
+      <p class="price">$220/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/fortuner.jpeg" alt="Fortuner" class="car-image">
+      <h3>Fortuner</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (350)</p>
+      <p class="price">$250/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+  </div>
+
+  <!-- Tesla Cars -->
+  <div class="car-container hidden" data-company="tesla">
+    <div class="car-card">
+      <img src="img/tesla_s.jpeg" alt="Model S" class="car-image">
+      <h3>Model S</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (300)</p>
+      <p class="price">$200/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/tesla_x.jpeg" alt="Model X" class="car-image">
+      <h3>Model X</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (400)</p>
+      <p class="price">$230/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+  </div>
+
+  <!-- Mazda Cars -->
+  <div class="car-container hidden" data-company="mazda">
+    <div class="car-card">
+      <img src="img/mazdacx-5.jpeg" alt="CX-5" class="car-image">
+      <h3>CX-5</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (320)</p>
+      <p class="price">$170/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/mazda 3.jpeg" alt="Mazda3" class="car-image">
+      <h3>Mazda 3</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (290)</p>
+      <p class="price">$160/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+  </div>
+
+  <!-- Mitsubishi Cars -->
+  <div class="car-container hidden" data-company="mitsubishi">
+    <div class="car-card">
+      <img src="img/Pajero.jpeg" alt="Pajero" class="car-image">
+      <h3>Pajero</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (310)</p>
+      <p class="price">$190/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/outlander.jpeg" alt="Outlander" class="car-image">
+      <h3>Outlander</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (280)</p>
+      <p class="price">$200/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+  </div>
+
+  <!-- Honda Cars -->
+  <div class="car-container hidden" data-company="honda">
+    <div class="car-card">
+      <img src="img/civic.jpeg" alt="Civic" class="car-image">
+      <h3>Civic</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (370)</p>
+      <p class="price">$210/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+    <div class="car-card">
+      <img src="img/honnda.jpeg" alt="CR-V" class="car-image">
+      <h3>CR-V</h3>
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (330)</p>
+      <p class="price">$220/Per Day</p>
+      <a href="#" class="rent-btn">Rent Now →</a>
+    </div>
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>About Us</h3>
+        <p>Your trusted car partner for all your automotive needs.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home" class="scroll-link">Home</a></li>
+          <li><a href="#services" class="scroll-link">Services</a></li>
+          <li><a href="#contact" class="scroll-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> CarWebsite. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="car.js"> </script>
+</body>
+</html>
